@@ -1,0 +1,9 @@
+<%= links_display%> 
+
+<h1> POST LIST </h1>
+
+<% @post.each do|post| %>
+  <h2> <%= post.title %></h2>
+  <p> <%= post.body %></p>
+  <p><%= post_author(post) %></p> 
+<% end %>
