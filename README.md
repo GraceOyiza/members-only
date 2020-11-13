@@ -31,7 +31,7 @@ To get this project up and running locally, you must already have ruby and neces
 ### Clone this repository
 $ git clone https://github.com/GraceOyiza/members-only.git
 
-### install dependencies
+### Install dependencies
 $ bundle install
 
 ### Run rails server
@@ -40,9 +40,9 @@ $ rails server
 ### Run the application from a browser
  localhost:3000
 
-### Sign-up or Sign in by clicking on the appropriate link
+##### Sign-up or Sign in by clicking on the appropriate link
 
-### Once signed in you can create a new post by clicking on the link New Posts
+##### Once signed in you can create a new post by clicking on the link New Posts
 
 ### You should now be able to see all posts and their authors
 
