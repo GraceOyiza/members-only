@@ -1,13 +1,12 @@
-<%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+<%= links_display%> 
 <%= link_to 'Log In', new_user_session_path%>
 <%= link_to 'Sign Up', new_user_registration_path%>
 <%= link_to 'Create post',  new_post_path%>
+
 <h1> POST LIST </h1>
 
 <% @post.each do|post| %>
   <h2> <%= post.title %></h2>
   <p> <%= post.body %></p>
- <% if current_user %> 
-  <%=  post.user.username %> 
-<% end %> 
+  <p><%= post_author(post) %></p> 
 <% end %>
