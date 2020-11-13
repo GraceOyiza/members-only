@@ -4,9 +4,6 @@ module PostsHelper
   end
 
   def post_author(post)
-    if user_signed_in?
-      "#{post.user.username}"
-    end
+    post.user.username.to_s if user_signed_in?
   end
-
 end
