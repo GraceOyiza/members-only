@@ -14,7 +14,7 @@ class PostsController < ApplicationController
     @post = Post.new(params_helper)
     @post.user_id = current_user.id
     if @post.save
-      flash[:success] = 'Post created successfully'
+      flash[:notice] = 'Post created successfully'
       redirect_to root_path
     else
       render :new
