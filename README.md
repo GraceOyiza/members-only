@@ -40,13 +40,13 @@ $ rails server
 ### Run the application from a browser
  localhost:3000
 
-##### Sign-up or Sign in by clicking on the appropriate link
+#### Sign-up or Sign in by clicking on the appropriate link
 
-##### Once signed in you can create a new post by clicking on the link New Posts
+#### Once signed in you can create a new post by clicking on the link New Posts
 
-### You should now be able to see all posts and their authors
+#### You should now be able to see all posts and their authors
 
-### To sign_out when ssigned in just click on the Sign Out link
+#### To sign_out when ssigned in just click on the Sign Out link
 
 ## Author Details::
 
